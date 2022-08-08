@@ -102,7 +102,7 @@ async def checker(client: WebshotBot, message: Message):
 async def start(_, message: Message) -> None:
     await message.reply_text(
         f"<b>Hi {message.from_user.first_name} 👋\n"
-        "I can render website of a given link to either PDF or PNG/JPEG</b>",
+        "𝑰 𝒄𝒂𝒏 𝑺𝒄𝒓𝒆𝒆𝒏𝑺𝒉𝒐𝒕  𝒘𝒆𝒃𝒔𝒊𝒕𝒆 𝒐𝒇 𝒂 𝒈𝒊𝒗𝒆𝒏 𝒍𝒊𝒏𝒌 𝒕𝒐 𝒆𝒊𝒕𝒉𝒆𝒓 𝑷𝑫𝑭 𝒐𝒓 𝑷𝑵𝑮/𝑱𝑷𝑬𝑮 \n 𝑱𝒖𝒔𝒕 𝒔𝒆𝒏𝒅 𝒂 𝒍𝒊𝒏𝒌 𝒂𝒏𝒅 𝒔𝒆𝒆 𝒎𝒚 𝒑𝒐𝒘𝒆𝒓</b>",
         quote=True,
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("❓ About", callback_data="about_cb")]]
@@ -118,18 +118,18 @@ async def feedback(_, message: Message) -> None:
             [
                 [
                     InlineKeyboardButton(
-                        "👨🏻‍🦯 Source",
-                        url="https://github.com/alenpaul2001/Web-Screenshot-Bot",
+                        "Oᗯᑎᗴᖇ",
+                        url="https://t.me/fligher",
                     ),
                     InlineKeyboardButton(
-                        "❓ Bug Report",
-                        url="https://github.com/alenpaul2001/Web-Screenshot-Bot/issues",
+                        "ⓄⓌⓃⒺⓇ",
+                        url="https://t.me/v_ec_na",
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        "🌃 Profile Icon Credit",
-                        url="https://www.goodfon.com/wallpaper/art-vector-background-illustration-minimalism-angga-tanta-12.html",
+                        "𝙏𝙍𝙐𝙈𝘽𝙊𝙏𝙎",
+                        url="https://t.me/movie_time_botonly",
                     )
                 ],
             ]
@@ -150,9 +150,7 @@ async def help_handler(_, message: Message) -> None:
             "**B. How does this bot work?\n\n Ans:** This bot uses"
             " an actual browser under the hood to render websites.\n\n"
             "**C. How to report a bug or request a new feature?\n\n"
-            "Ans:** For feature requests or bug reports, you can open an "
-            "[issue](https://github.com/alenpaul2001/Web-Screenshot-Bot) in Github"
-            " or send the inquiry message in the support group mentioned below.",
+            "Ans:** For feature requests or bug reports, @V_ec_na ",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
