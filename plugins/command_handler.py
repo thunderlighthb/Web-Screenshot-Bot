@@ -113,7 +113,7 @@ async def start(_, message: Message) -> None:
 @WebshotBot.on_message(filters.command(["about", "feedback"]))
 async def feedback(_, message: Message) -> None:
     await message.reply_text(
-        text="This project is open ❤️ source",
+        text="𝙒𝙀𝘽𝙎𝙄𝙏𝙀 𝙎𝘾𝙍𝙀𝙀𝙉𝙎𝙃𝙊𝙏 𝘽𝙊𝙏 \n 𝙁𝙚𝙖𝙩𝙪𝙧𝙚𝙨 ❤️ \n 👉𝙋𝙙𝙛,𝙥𝙣𝙜,𝙟𝙥𝙚𝙜 \n👉𝙍𝙚𝙨𝙤𝙡𝙪𝙩𝙞𝙤𝙣 \n👉𝙁𝙪𝙡𝙡 𝙨𝙞𝙩𝙚 \n👉𝘼𝙪𝙩𝙤 𝙨𝙘𝙧𝙤𝙡𝙡/𝙢𝙖𝙣𝙪𝙖𝙡",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
