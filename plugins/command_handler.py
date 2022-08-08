@@ -138,10 +138,12 @@ async def feedback(_, message: Message) -> None:
 
 
 @WebshotBot.on_message(
-    filters.command(["help"]))
+    filters.command(["support", "feedback", "help"])& filters.private
+)
 async def help_handler(_, message: Message) -> None:
+     if Config.SUPPORT_GROUP_LINK is not None:    
         await message.reply_text(
-            text="__Frequently Asked Questions__** : -\n\n"
+            "__Frequently Asked Questions__** : -\n\n"
             "A. How to use the bot to render a website?\n\n"
             "Ans:** Send the link of the website you want to render, "
             "choose the desired setting, and click `start render`.\n\n"
