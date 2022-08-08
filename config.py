@@ -23,11 +23,11 @@ if os.path.isfile("config.env"):
 
 
 class Config:
-    BOT_TOKEN = os.environ["BOT_TOKEN","5598969538:AAF-oqjulil42ZGk9PQ6nbYkOrPZDaOMnk8"]
-    API_ID = int(os.environ["API_ID","4682685"])
-    API_HASH = os.environ["API_HASH","3eba5d471162181b8a3f7f5c0a23c307"]
+    BOT_TOKEN = os.environ["BOT_TOKEN"]
+    API_ID = int(os.environ["API_ID"])
+    API_HASH = os.environ["API_HASH"]
     EXEC_PATH = os.environ.get("GOOGLE_CHROME_SHIM", None)
     # OPTIONAL
     LOG_GROUP = init_log()
     REQUEST_TIMEOUT = init_request_timeout()
-    SUPPORT_GROUP_LINK = os.environ.get("SUPPORT_GROUP", "https://t.me/+Ut3otVo52AQzMTc1")
+    SUPPORT_GROUP_LINK = os.environ.get("SUPPORT_GROUP")
